@@ -38,7 +38,7 @@ Alinea dos secuencias completas penalizando todos los gaps desde el inicio hasta
 | Secuencia Vertical (seq2) | Segunda secuencia (eje Y de la matriz) | `GCATA` |
 | Match | Puntuación por bases iguales | `+1` |
 | Mismatch | Penalización por bases distintas | `-1` |
-| Gap | Penalización por inserción/deleción | `-2` |
+| Gap | Penalización por inserción/deleción | `-1` |
 
 **Salida:**
 - Alineamiento final con `|` (match), `·` (mismatch), `-` (gap)
